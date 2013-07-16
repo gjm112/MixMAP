@@ -5,7 +5,7 @@ function(data.set,pval="pval",snp="snp",gene="gene",coord="coord",chr="chr",alph
 #defining errors
 ############################
 #names must be specified
-#p-values
+#p-values git greg
 if (!pval%in%names(data.set)) stop(gettextf(paste0('Variable "',pval,'" not found in input data.frame.  Please specify variable name for p-values')))
 #snp
 if (!snp%in%names(data.set)) stop(gettextf(paste0('Variable "',snp,'" not found in input data.frame.  Please specify variable name for SNPs.')))
