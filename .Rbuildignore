@@ -1,3 +1,15 @@
 .dropbox
+.gitignore
+.Rhistory
+^.*\.git$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+.DS_Store
+.swpcon
+.Rbuildignore~
+.Rhistory
+.dropbox
+.gitignore
+.Rproj.user
+.git
+.Icon
