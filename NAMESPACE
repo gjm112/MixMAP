@@ -1,0 +1,5 @@
+export(mixmapTest)
+export(mixmapPI)
+exportMethods(plot)
+import(lme4)
+import(utils)

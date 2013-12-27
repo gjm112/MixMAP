@@ -33,7 +33,8 @@ Gregory J. Matthews
 \examples{
 data(MixMAP_example)
 #Run MixMAP
-MixOut<-MixMAP(MixMAP_example,pval="GC.Pvalue",snp="MarkerName",chr="Chr",coord="Coordinate",gene="Gene")
+MixOut<-MixMAP(MixMAP_example,pval="GC.Pvalue",snp="MarkerName",
+  chr="Chr",coord="Coordinate",gene="Gene")
 summary(MixOut)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

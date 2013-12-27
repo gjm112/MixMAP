@@ -42,7 +42,8 @@ library(MixMAP)
 data(MixMAP_example)
 str(MixMAP_example)
 #Run MixMAP
-MixOut<-MixMAP(MixMAP_example,pval="GC.Pvalue",snp="MarkerName",chr="Chr",coord="Coordinate",gene="Gene")
+MixOut<-MixMAP(MixMAP_example,pval="GC.Pvalue",snp="MarkerName",
+  chr="Chr",coord="Coordinate",gene="Gene")
 #Display first ten detected genes
 summary(MixOut)
 #MixManhattan Plot
