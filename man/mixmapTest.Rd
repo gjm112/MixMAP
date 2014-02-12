@@ -50,7 +50,7 @@ If the user only has SNP names and p-values, gene name must be appended to the f
 \value{
 An object of class 'MixMAP'.
 %%  If it is a LIST, use
-  \item{output}{data.frame with a row for each gene containing gene symbol, posterior estimates for all gene level effects, variance used in intervals, upper bound of one sided interval, the number of SNPs in each gene, the chromsome of the SNP, the location coordinate of the SNP, the gene-level p-value, and the adjusted gene-level p-value.}
+  \item{output}{data.frame with a row for each gene containing gene symbol, posterior estimates for all gene level effects, variance used in intervals, upper bound of one sided interval, the number of SNPs in each gene, the chromsome of the SNP, the location coordinate of the SNP, the gene-level p-value, the Bonferroni adjusted gene-level p-value, and the q-value based on Banjamini-Hochberg fasle discovery rate.}
  \item{num.genes.detected }{A vector containing the number of SNPs detected and the total number of genes}
   \item{detected.genes }{data.frame with a row for each gene containing gene symbol, posterior estimates for all gene level effects, variance used in intervals, upper bound of one sided interval, the number of SNPs in each gene, the chromsome of the SNP, the location coordinate of the SNP, the gene-level p-value, the adjusted gene-level p-value, the name of the SNP with the smallest p-value, the minimum p-value in the gene, and a 5 number summary of the p-values within each gene}
    \item{lmer.out }{A mer object containing all of the model output information, including parameter estimates, from the lmer function.}

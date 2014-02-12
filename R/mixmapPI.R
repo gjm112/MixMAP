@@ -75,6 +75,7 @@ mixmapPI <-
     
     #Calculate the gene level p-value
     out$MixMAP_pvalue<-pnorm(out$postEst/sqrt(out$var))
+    out$MixMAP_pvalue_BonferroniAdjusted<-dim(out)[1]*pnorm(out$postEst/sqrt(out$var))
     out$MixMAP_pvalue_adj<-p.adjust(out$MixMAP_pvalue,method="BH")
     
     
