@@ -18,7 +18,7 @@
   }
   
   \item{pval}{
-    A character string with the name of the variable containing the p-values in the data.set.  Default is "pval".
+    A character string with the name of the variable containing the p-values in the data.set.  Default is "pval".  This variable must be numeric.  
   }
   \item{snp}{
     A character string with the name of the variable containing the SNP name in the data.set.  Default is "snp".
@@ -27,10 +27,10 @@
     A character string with the name of the variable containing the gene name in the data.set.  Default is "gene".
   }
   \item{coord}{
-    A character string with the name of the variable containing the location coordinate of the SNP in the data.set.  Default is "coord".
+    A character string with the name of the variable containing the location coordinate of the SNP in the data.set.  Default is "coord".  This variable must be numeric.  
   }
   \item{chr}{
-    A character string with the name of the variable containing the chromosome number of the SNP location in the data.set.  Default is "chr".
+    A character string with the name of the variable containing the chromosome number of the SNP location in the data.set.  Default is "chr".  This variable must be numeric.  
   }
   
   \item{alpha}{
