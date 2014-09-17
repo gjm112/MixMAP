@@ -1,4 +1,4 @@
-
+#I added a comment
 mixmapTest <-
 function(data.set,pval="pval",snp="snp",gene="gene",coord="coord",chr="chr",alpha=0.05){
 ############################
