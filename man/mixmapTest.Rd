@@ -47,17 +47,18 @@ If the user only has SNP names and p-values, gene name must be appended to the f
 
 }
 \value{
-An object of class 'MixMAP'.
+An object of class \code{MixMAP}.
 %%  If it is a LIST, use
-  \item{output}{data.frame with a row for each gene containing gene symbol, posterior estimates for all gene level effects, variance used in intervals, upper bound of one sided interval, the number of SNPs in each gene, the chromsome of the SNP, the location coordinate of the SNP, the gene-level p-value, the Bonferroni adjusted gene-level p-value, and the q-value based on Banjamini-Hochberg fasle discovery rate.}
+  \item{output}{A \code{data.frame} with a row for each gene containing gene symbol, posterior estimates for all gene level effects, variance used in intervals, upper bound of one sided interval, the number of SNPs in each gene, the chromsome of the SNP, the location coordinate of the SNP, the gene-level p-value, the Bonferroni adjusted gene-level p-value, and the q-value based on Banjamini-Hochberg fasle discovery rate.}
  \item{num.genes.detected }{A vector containing the number of SNPs detected and the total number of genes}
-  \item{detected.genes }{data.frame with a row for each gene containing gene symbol, posterior estimates for all gene level effects, variance used in intervals, upper bound of one sided interval, the number of SNPs in each gene, the chromsome of the SNP, the location coordinate of the SNP, the gene-level p-value, the adjusted gene-level p-value, the name of the SNP with the smallest p-value, the minimum p-value in the gene, and a 5 number summary of the p-values within each gene}
-   \item{lmer.out }{A mer object containing all of the model output information, including parameter estimates, from the lmer function.}
+  \item{detected.genes }{A \code{data.frame} with a row for each gene containing gene symbol, posterior estimates for all gene level effects, variance used in intervals, upper bound of one sided interval, the number of SNPs in each gene, the chromsome of the SNP, the location coordinate of the SNP, the gene-level p-value, the adjusted gene-level p-value, the name of the SNP with the smallest p-value, the minimum p-value in the gene, and a 5 number summary of the p-values within each gene}
+   \item{lmer.out }{A \code{mer} object containing all of the model output information, including parameter estimates, from the \code{lmer} function.}
 %% ...
 }
 \references{
 Foulkes, A.S., Matthews, G.J., Das, U., Ferguson, J., Reilly, M.  (2013) ``Mixed Modeling of Meta-Analysis P-Values (MixMAP) Suggests Multiple Novel Gene Loci for Low Density Lipoprotein Cholesterol". PLoS ONE 8(2): e54812.
 
+Matthews, G.J. and Foulkes, A.S. (2015) ``{MixMAP}: An {R} Package for Mixed Modeling of Meta-Analysis $p$ Values in Genetic Association Studies." Journal of Statistical Software.  66(3): 1-11.
 }
 \author{
 Gregory J. Matthews
