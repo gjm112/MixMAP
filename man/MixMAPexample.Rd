@@ -1,7 +1,7 @@
 \name{MixMAP_example}
 \alias{MixMAP_example}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{MixMAP_example}
+\title{A working example of the MixMAP algorithm.}
 \description{
 Data containing the results of a meta-analysis consisting of many GWAS whose phenotype of interest is LDL cholesterol.  This file contains all of the information necessary to run the MixMAP function directly without any pre-processing.  
 }

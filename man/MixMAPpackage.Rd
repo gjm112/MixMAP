@@ -29,6 +29,8 @@ Maintainer: Gregory J. Matthews <gjm112@gmail.com>
 }
 \references{
 Foulkes, A.S., Matthews, G.J., Das, U., Ferguson, J., Reilly, M.  (2013) ``Mixed Modeling of Meta-Analysis P-Values (MixMAP) Suggests Multiple Novel Gene Loci for Low Density Lipoprotein Cholesterol". PLoS ONE 8(2): e54812.
+
+Matthews, G.J. and Foulkes, A.S. (2015) ``{MixMAP}: An {R} Package for Mixed Modeling of Meta-Analysis $p$ Values in Genetic Association Studies." Journal of Statistical Software.  66(3): 1-11.
 }
 
 \keyword{ package }

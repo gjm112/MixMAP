@@ -3,7 +3,7 @@
 \docType{methods}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Summary
+Summary of a MixMAP object
 }
 \description{
 Displays a summary of the MixMAP object.

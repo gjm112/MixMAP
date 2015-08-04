@@ -3,7 +3,7 @@
 \docType{methods}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Plot
+Method for creating a MixMAP Manhattan plot.
 }
 \description{
 The purpose of plot is to graphically display the results of MixMAP in a similar way as a Manhattan plot that is used for Genome Wide Association Studies.    
