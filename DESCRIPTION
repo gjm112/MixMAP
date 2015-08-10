@@ -6,7 +6,7 @@ Date: 2015-08-10
 Author: Gregory J. Matthews
 Maintainer: Gregory J. Matthews <gjm112@gmail.com>
 Depends:
-    R (>= 2.15.1), lme4
+    R (>= 2.15.1)
 Imports: methods, graphics, stats, utils, lme4
 Suggests: 
 Description: A collection of functions to implement the MixMAP algorithm, which performs gene
