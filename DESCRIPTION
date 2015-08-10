@@ -1,15 +1,15 @@
 Package: MixMAP
 Type: Package
-Title: Implements the MixMAP algorithm
+Title: Implements the MixMAP Algorithm
 Version: 1.3.3
 Date: 2015-08-10
 Author: Gregory J. Matthews
 Maintainer: Gregory J. Matthews <gjm112@gmail.com>
 Depends:
     R (>= 2.15.1), lme4
-Imports: 
-Suggests: methods
-Description: This package contains functions to implement the MixMAP algorithm, which performs gene
+Imports: methods, graphics, stats, utils, lme4
+Suggests: 
+Description: A collection of functions to implement the MixMAP algorithm, which performs gene
     level tests of association using data from a previous GWAS or data from a
     meta-analysis of several GWAS.  Conceptually, genes are detected as
     significant if the collection of p-values within a gene are determined to
